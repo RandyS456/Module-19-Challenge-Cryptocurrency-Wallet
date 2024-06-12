@@ -47,13 +47,8 @@
 # README.md file of your GitHub repository for this
 ################################################################
 # krypto_jobs.py
-Challenge assignment.
-
-
-
 #######################################
 
-# Imports
 import os
 import streamlit as st
 from web3 import Web3
