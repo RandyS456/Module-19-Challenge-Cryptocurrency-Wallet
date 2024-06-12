@@ -1,31 +1,56 @@
-# Cryptocurrency Wallet
-
-################################################################################
-# For this Challenge, you will assume the perspective of a KryptoJobs2Go
-# customer in order to do the following:
-
-# * Generate a new Ethereum account instance by using your mnemonic seed phrase
-# (which you created earlier in the module).
-
-# * Fetch and display the account balance associated with your Ethereum account
-# address.
-
-# * Calculate the total value of an Ethereum transaction, including the gas
-# estimate, that pays a KryptoJobs2Go candidate for their work.
-
-# * Digitally sign a transaction that pays a KryptoJobs2Go candidate, and send
-# this transaction to the Ganache blockchain.
-
-# * Review the transaction hash code associated with the validated blockchain transaction.
-
-# Once you receive the transaction’s hash code, you will navigate to the Transactions
-# section of Ganache to review the blockchain transaction details. To confirm that
-# you have successfully created the transaction, you will save screenshots to the
+# Cryptocurrency Wallet
+
+
+
+################################################################################
+
+# For this Challenge, you will assume the perspective of a KryptoJobs2Go
+
+# customer in order to do the following:
+
+
+
+# * Generate a new Ethereum account instance by using your mnemonic seed phrase
+
+# (which you created earlier in the module).
+
+
+
+# * Fetch and display the account balance associated with your Ethereum account
+
+# address.
+
+
+
+# * Calculate the total value of an Ethereum transaction, including the gas
+
+# estimate, that pays a KryptoJobs2Go candidate for their work.
+
+
+
+# * Digitally sign a transaction that pays a KryptoJobs2Go candidate, and send
+
+# this transaction to the Ganache blockchain.
+
+
+
+# * Review the transaction hash code associated with the validated blockchain transaction.
+
+
+
+# Once you receive the transaction’s hash code, you will navigate to the Transactions
+
+# section of Ganache to review the blockchain transaction details. To confirm that
+
+# you have successfully created the transaction, you will save screenshots to the
+
 # README.md file of your GitHub repository for this
 ################################################################
 # krypto_jobs.py
-Challenge assignment.
-
+Challenge assignment.
+
+
+
 #######################################
 
 # Imports
@@ -117,10 +142,3 @@ if st.sidebar.button("Send Transaction"):
 
 # Display KryptoJobs2Go candidates on the main page
 get_people()
-creenshot to the README.md file of your GitHub repository for
-#  this Challenge assignment.
-
-# 6. Navigate to the Ganache transactions tab and locate the transaction.
-# * Click the transaction and take a screenshot of it.
-# Save this screenshot to the README.md file of your GitHub repository for
-#  this Challenge assignment.signment.
