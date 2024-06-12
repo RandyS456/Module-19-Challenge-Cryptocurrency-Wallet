@@ -1,13 +1,22 @@
-# Cryptocurrency Wallet
-################################################################################
-
-# This file contains the Ethereum transaction functions that you have created throughout this module’s lessons.
-# By using import statements, you will integrate this `crypto_wallet.py` Python script
-# into the KryptoJobs2Go interface program that is found in the `krypto_jobs.py` file.
-
+# Cryptocurrency Wallet
+
 ################################################################################
-# crypto_wallet.py
+
+
+
+# This file contains the Ethereum transaction functions that you have created throughout this module’s lessons.
+
+# By using import statements, you will integrate this `crypto_wallet.py` Python script
+
+# into the KryptoJobs2Go interface program that is found in the `krypto_jobs.py` file.
+
+
+
+################################################################################
+# crypto_wallet.py
+
 ##########################################################################import os
+import os
 from web3 import Web3
 from eth_account import Account
 from dotenv import load_dotenv
@@ -54,13 +63,3 @@ def send_transaction(w3, account, to, wage):
     signed_tx = account.sign_transaction(tx)
     tx_hash = w3.eth.send_raw_transaction(signed_tx.rawTransaction)
     return tx_hash.hex()
-
-
-
-
-
-
-
-
-
-ctioed_tx.rawTransaction)    return w3.eth.sendRawTransaction(signed_tx.rawTransaction)
